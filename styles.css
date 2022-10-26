@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 :root{
-    --primary-color:hsl(214,70%, 50%);
-    --secondary-color:#9a8c98;
+    --primary-color:rgb(243, 108, 30);
+    --secondary-color:#f0cfeb;
     --border-color:#4a4e69;
-    --background-color:hsl(212,28%,87%);
+    --background-color:rgb(250, 216, 135);
 }
 
 *{

@@ -13,17 +13,17 @@
         <div class="container">
             <div class="card">
                 <div class="card-header">
-                    <h1>Is your Birthday Lucky</h1>
-                    <p>Enter your Birth Date and Laucky Number</p>
+                    <h1>Is your Birthday Lucky?</h1>
+                    <p>Enter your Birth Date and Lucky Number</p>
                 </div>
                 <div class="card-body">
                     <div class="input-group">
                         <label for="dob">Date of Birth:</label>
-                        <input type="text" id="txtDob"/>
+                        <input type="date" id="txtDob"/>
                     </div>
                     <div class="input-group">
                         <label for="txtLuckyNo">Lucky Number:</label>
-                        <input type="text" id="txtLuckyNo"/>
+                        <input type="number" id="txtLuckyNo" value="1"/>
                     </div>
                     <button class="btn" id="checkBtn">Check</button>
                 </div>
@@ -40,14 +40,12 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="model">
-            <div class="model-content" id="content">
+        <div class="modal" id="modal">
+            <div class="modal-content" id="content">
                 <span class="close">&times;</span>
                 <div id="modalBody"></div>
             </div>
         </div>
-    </section>
-    
-    <script src="app.js" type="text/javascript"></script>
+        <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
