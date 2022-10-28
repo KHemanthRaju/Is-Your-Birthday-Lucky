@@ -83,6 +83,7 @@ input[type='text']{
     border-radius: 1rem;
     background: none;
     border: 2px solid var(--border-color);
+    cursor: pointer;
 }
 
 .modal{
